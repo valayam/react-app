@@ -26,3 +26,7 @@ npm start
 
 This will set up a new React application and start a development server, allowing you to begin developing your React app.
 
+```mermaid
+
+```
+
