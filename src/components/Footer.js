@@ -5,7 +5,8 @@ import '../styles/components/Footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <Link to="/privacy">Privacy</Link>
+      <Link to="/privacy" className="footer-link">Privacy Policy</Link>
+      <Link to="/contact" className="footer-link">Contact Us</Link>
     </footer>
   );
 };

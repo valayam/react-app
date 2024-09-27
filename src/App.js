@@ -7,6 +7,8 @@ import HomePage from './pages/HomePage';
 import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
 import PrivacyPage from './pages/PrivacyPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 import './App.css';
 
 const App = () => {
@@ -22,6 +24,8 @@ const App = () => {
               <Route path="/register" element={<RegisterPage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/privacy" element={<PrivacyPage />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/contact" element={<ContactPage />} />
             </Routes>
           </div>
         </div>
